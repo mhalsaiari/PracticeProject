@@ -1,3 +1,3 @@
-module PracticeProj
+module PracticeProject
 
 go 1.19

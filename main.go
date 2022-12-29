@@ -1,14 +1,15 @@
 package main
 
 import (
-	"PracticeProj/handlers"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/mhalsaiari/PracticeProject/handlers"
 )
 
 func main() {
-	l := log.New(os.Stdout, "PracticeProject", log.LstdFlags)
+	l := log.New(os.Stdout, "PracticeProj", log.LstdFlags)
 	hh := handlers.NewHello(l)
 
 	sm := http.NewServeMux()
