@@ -1,4 +1,4 @@
-package "github.com/PracticeProject/handlers"
+package handlers
 
 import (
 	"fmt"
